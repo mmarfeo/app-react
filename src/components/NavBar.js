@@ -37,9 +37,6 @@ function NavBar() {
         </form>
       </div>
     </nav>
-    <div className="bg-dark" style={{height: '800px'}}>
-        
-    </div>
 
 
     </div>

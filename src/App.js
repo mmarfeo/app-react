@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-/* import NavBar from './components/NavBar'; */
+import NavBar from './components/NavBar';
 import Contador from './components/counterApp';
 
 function App() {
@@ -10,7 +10,10 @@ function App() {
   }
 
   return (
-<Contador init={1} stock={10} onAdd={onAdd}/>
+    <>
+    <NavBar/>
+    <Contador init={1} stock={10} onAdd={onAdd}/>
+    </>
   );
 }
 
